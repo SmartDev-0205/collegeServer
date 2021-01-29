@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1519a7af-2ca2-4513-94e8-f8cb15e4be25" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nVw7wXRTj5g56p9DGvvAnWcZmA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Backend" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1519a7af-2ca2-4513-94e8-f8cb15e4be25" name="Default Changelist" comment="" />
+      <created>1611488401552</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611488401552</updated>
+      <workItem from="1611488407727" duration="3194000" />
+      <workItem from="1611493295097" duration="78000" />
+      <workItem from="1611493432658" duration="31206000" />
+      <workItem from="1611627491704" duration="809000" />
+      <workItem from="1611668113677" duration="23538000" />
+      <workItem from="1611747456388" duration="12661000" />
+      <workItem from="1611774616630" duration="554000" />
+      <workItem from="1611798857896" duration="1643000" />
+      <workItem from="1611876139632" duration="9315000" />
+      <workItem from="1611895299241" duration="752000" />
+      <workItem from="1611927047457" duration="1043000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1611627939495">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611627939495" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1611493335051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611493335051" />
+    <state x="667" y="276" width="710" height="546" key="find.popup" timestamp="1611927406654">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="276" width="710" height="546" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611927406654" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1611490396715">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611490396715" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/components/user/collegeList.js</url>
+          <line>79</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
