@@ -60,7 +60,7 @@ const CollegeSchema = new Schema({
         required: true
     },
     universityType:{
-        type:Number,
+        type:String,
         required: true
     },
     webSite:{

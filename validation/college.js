@@ -1,5 +1,5 @@
-import Validator from "Validator";
-import isEmpty from "is-empty";
+const Validator=require('validator');
+const isEmpty=require('is-empty');
 
 module.exports = function validateCollegeInput(data){
 
@@ -22,7 +22,7 @@ module.exports = function validateCollegeInput(data){
     data.overallRating = !isEmpty(data.overallRating) ? data.overallRating : 0;
     data.livingCostRating = !isEmpty(data.livingCostRating) ? data.livingCostRating : 0;
     data.jobsRating = !isEmpty(data.jobsRating) ? data.jobsRating : 0;
-    data.universityType = !isEmpty(data.universityType) ? data.universityType : 0;
+    data.universityType = !isEmpty(data.universityType) ? data.universityType : '';
     data.webSite = !isEmpty(data.webSite) ? data.webSite : '';
     data.phoneNumber = !isEmpty(data.phoneNumber) ? data.phoneNumber : 0;
     data.email = !isEmpty(data.email) ? data.email : '';
@@ -89,8 +89,8 @@ module.exports = function validateCollegeInput(data){
     if(data.jobsRating===0){
         errors.jobsRating = "jobsRating number value is required";
     }
-    if(data.universityType===0){
-        errors.universityType = "universityType number value is required";
+    if(data.universityType===''){
+        errors.universityType = "universityType  value is required";
     }
     if(Validator.isEmpty(data.webSite)){
         errors.webSite = "webSite field is required";

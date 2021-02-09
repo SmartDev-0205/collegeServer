@@ -20,18 +20,18 @@ router.post("/Addcollege", (req, res) => {
         name, description, tuitionFee, accomodationFee, applicationFee, springDeadline, summerDeadline, fallDeadline, WES, overallRating, livingCostRating, jobsRating,
         universityType, webSite, establishmentType, phoneNumber, email, acceptanceRate, graduationRate, GRE, IELTS, Toefl, degrees, specializations
     } = req.body;
-    let Degrees=[];
-    let Specials=[];
+    let Degrees = [];
+    let Specials = [];
     for (let index = 0; index < degrees.length; index++) {
-        let item=degrees[index].label;
+        let item = degrees[index].label;
         Degrees.push(item);
     }
-    console.log("Degrees==>",Degrees);
+    console.log("Degrees==>", Degrees);
     for (let index = 0; index < specializations.length; index++) {
-        let item=specializations[index].label;
+        let item = specializations[index].label;
         Specials.push(item);
     }
-    console.log("Degrees==>",Specials);
+    console.log("Degrees==>", Specials);
     const address = {
         streetNo: req.body.streetNo,
         city: req.body.city,
@@ -43,43 +43,10 @@ router.post("/Addcollege", (req, res) => {
 
 
     console.log("name===>", name);
-    if (College.findOne({name: name})) {
-        College.updateOne({
-            name: name
-        }, {
-            $set: {
-                name: name,
-                logo: logo,
-                description: description,
-                tuitionFee: tuitionFee,
-                accomodationFee: accomodationFee,
-                applicationFee: applicationFee,
-                springDeadline: springDeadline,
-                summerDeadline: summerDeadline,
-                fallDeadline: fallDeadline,
-                WES: WES,
-                overallRating: overallRating,
-                livingCostRating: livingCostRating,
-                jobsRating: jobsRating,
-                universityType: universityType,
-                webSite: webSite,
-                establishmentType: establishmentType,
-                phoneNumber: phoneNumber,
-                email: email,
-                acceptanceRate: acceptanceRate,
-                graduationRate: graduationRate,
-                GRE: GRE,
-                IELTS: IELTS,
-                Toefl: Toefl,
-                address: address,
-                status: true,
-                degrees:Degrees,
-                specializations:Specials
-            }
-        }, function (err, results) {
-            console.log("update result==>", results);
-            if (results.nModified === 0) {
-                College.insertMany({
+    College.findOne({name: name}).then(college => {
+        if (college) {
+            College.updateOne({name: name}, {
+                $set: {
                     name: name,
                     logo: logo,
                     description: description,
@@ -105,14 +72,50 @@ router.post("/Addcollege", (req, res) => {
                     Toefl: Toefl,
                     address: address,
                     status: true,
-                    degrees:Degrees,
-                    specializations:Specials
-                });
-            }
-        });
-    }
+                    degrees: Degrees,
+                    specializations: Specials
+                }
+            }, (err, result) => {
+                if (err) {
+                    res.status(400).json(err)
+                } else {
+                    res.status(200).json({status: "ok"})
+                }
+            })
+        } else {
+            College.insertMany({
+                name: name,
+                logo: logo,
+                description: description,
+                tuitionFee: tuitionFee,
+                accomodationFee: accomodationFee,
+                applicationFee: applicationFee,
+                springDeadline: springDeadline,
+                summerDeadline: summerDeadline,
+                fallDeadline: fallDeadline,
+                WES: WES,
+                overallRating: overallRating,
+                livingCostRating: livingCostRating,
+                jobsRating: jobsRating,
+                universityType: universityType,
+                webSite: webSite,
+                establishmentType: establishmentType,
+                phoneNumber: phoneNumber,
+                email: email,
+                acceptanceRate: acceptanceRate,
+                graduationRate: graduationRate,
+                GRE: GRE,
+                IELTS: IELTS,
+                Toefl: Toefl,
+                address: address,
+                status: true,
+                degrees: Degrees,
+                specializations: Specials
+            });
+            res.status(200).json({status: "ok"})
+        }
+    });
 
-    res.status(200).json({status: "ok"})
 
 });
 

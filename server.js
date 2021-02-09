@@ -32,6 +32,7 @@ app.set('trust proxy', true);
 app.use(bodyParser.json());
 
 const dbURL = "mongodb+srv://test:test@cluster0.o5xpz.mongodb.net/College?authSource=admin&replicaSet=atlas-rq1ugm-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true";
+//const dbURL = "mongodb://localhost:27017/CollegeAvartar"
 
 //connect to MongoDB
 mongoose

@@ -1,5 +1,7 @@
-import Validator from "validator";
-import isEmpty from "is-empty";
+// const Validator=require('validator');
+const Validator=require('validator')
+const isEmpty=require('is-empty')
+// const isEmpty=require('is-empty');
 
 module.exports = function validateLoginInput(data){
 

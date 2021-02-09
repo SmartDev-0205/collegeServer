@@ -1,5 +1,5 @@
-import Validator from "validator";
-import isEmpty from "is-empty";
+const Validator=require('validator');
+const isEmpty=require('is-empty');
 
 module.exports = function validateUserEditInput(data){
 

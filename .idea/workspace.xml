@@ -1,20 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1519a7af-2ca2-4513-94e8-f8cb15e4be25" name="Default Changelist" comment="" />
+    <list default="true" id="4a096a84-726d-41e3-9392-d3cb309d7e75" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/CollegeSchema.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/CollegeSchema.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/College.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/College.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/adminEdit.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/adminEdit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/college.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/college.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/evaluateprofile.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/evaluateprofile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/passwordConfirm.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/passwordConfirm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/register.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/register.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/sendemail.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/sendemail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/validation/usersave.js" beforeDir="false" afterPath="$PROJECT_DIR$/validation/usersave.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1nVw7wXRTj5g56p9DGvvAnWcZmA" />
+  <component name="ProjectId" id="1nl2NEUXk4WJMuxGKtarGgLeIMU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -24,8 +34,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Backend" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -44,22 +53,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1519a7af-2ca2-4513-94e8-f8cb15e4be25" name="Default Changelist" comment="" />
-      <created>1611488401552</created>
+      <changelist id="4a096a84-726d-41e3-9392-d3cb309d7e75" name="Default Changelist" comment="" />
+      <created>1611950316904</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1611488401552</updated>
-      <workItem from="1611488407727" duration="3194000" />
-      <workItem from="1611493295097" duration="78000" />
-      <workItem from="1611493432658" duration="31206000" />
-      <workItem from="1611627491704" duration="809000" />
-      <workItem from="1611668113677" duration="23538000" />
-      <workItem from="1611747456388" duration="12661000" />
-      <workItem from="1611774616630" duration="554000" />
-      <workItem from="1611798857896" duration="1643000" />
-      <workItem from="1611876139632" duration="9315000" />
-      <workItem from="1611895299241" duration="752000" />
-      <workItem from="1611927047457" duration="1043000" />
+      <updated>1611950316904</updated>
+      <workItem from="1611950334131" duration="63000" />
+      <workItem from="1612843104193" duration="6205000" />
     </task>
     <servers />
   </component>
@@ -67,32 +67,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1611627939495">
+    <state x="759" y="290" key="FileChooserDialogImpl" timestamp="1611950401012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611627939495" />
-    <state x="463" y="166" key="SettingsEditor" timestamp="1611493335051">
+    <state x="759" y="290" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1611950401012" />
+    <state x="527" y="253" width="710" height="546" key="find.popup" timestamp="1612843325326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1611493335051" />
-    <state x="667" y="276" width="710" height="546" key="find.popup" timestamp="1611927406654">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="276" width="710" height="546" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611927406654" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1611490396715">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611490396715" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/client/src/components/user/collegeList.js</url>
-          <line>79</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="527" y="253" width="710" height="546" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612843325326" />
   </component>
 </project>
